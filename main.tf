@@ -1,6 +1,6 @@
 provider "google" {
-  credentials = file("/home/kparabrahmammsc/my.json")  # Path to your service account key
-  project     = "fiery-spider-442905-u4"  # Your actual project ID
+  credentials = file("abc.json")  # Path to your service account key
+  project     = "ab-123"  # Your actual project ID
   region      = "us-central1"  # Replace with your desired region
 }
 
