@@ -8,8 +8,8 @@ terraform {
 }
 
 provider "google" {
-  credentials = file("/home/kparabrahmammsc/my.json")
-  project     = "fiery-spider-442905-u4"
+  credentials = file("loadbalencer.json")
+  project     = "abs-123"
   region      = "us-central1"  # Specify the region for the load balancer
 }
 
